@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #344e41;
+}
+
+h1{
+  font-family: georgia,'times new roman',times,serif;
+  font-size: 120px;
+  color: #dad7cd;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #588157;
+  font-family: sans-serif;
+}
+  
+#nav li a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #dad7cd;
+  text-align: center;
+  font-size: 16pt;
+}
+
+#nav li a:hover {
+  background-color: #3a5a40;
+}
+
+
+#selector ul {
+  list-style-type: none;
+  margin-top: 7px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+#selector li a {
+  border-radius: 10px;
+  background-color: #3a5a40;
+  box-shadow: 3px 5px 10px #1b2520;
+  float: left;
+  margin: 10px 3px;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17pt;
+  color: #dad7cd;
+  text-align: center;
+}
+  
+#selector li a:hover {
+  background-color:#588157;
+}
+
+#yousif , #haroon , #inside , #farewell , #swear {
+  border-radius: 25px;
+  background: #3a5a40;
+  box-shadow: 3px 5px 10px #1b2520;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 20px; 
+  color: #dad7cd;
+  font-size: 16pt;
+}
+
+#pic, #pic_haroon, #pic_inside, #pic_farewell, #pic_swear {
+  position:relative; 
+  float: right;
+  border-radius: 10px;
+}
+
+#arrow img {
+  float: right;    
+  height: 30px;
+  width: inherit;
+  margin-top: 14px;
+}
+
+
+#about {
+  font-family: georgia,'times new roman',times,serif;
+  color: #dad7cd;
+}

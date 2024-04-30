@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #344e41;
+}
+
+h1{
+    font-family: georgia,'times new roman',times,serif;
+    font-size: 120px;
+    color: #dad7cd;
+}
+
+marquee {
+color: #dad7cd; font-size: 20pt; text-indent: 0; word-spacing: 50px;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #588157;
+    font-family: sans-serif;
+}
+  
+#nav li a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #dad7cd;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#nav li a:hover {
+    background-color: #3a5a40;
+}
+
+
+
+#header{
+    overflow: hidden;
+}
+
+#header figure{
+    position: relative;
+    width: 800%;
+    margin: 0;
+    left: 0;
+    animation: 20s header infinite;
+}
+
+#haeder figure img{
+    float: left;
+    width: 668px;
+}
+
+@keyframes header {
+    0%{left: 25%;}
+    10%{left: 25%;}
+    20%{left: -24%;}
+    30%{left: -73.5%;}
+    40%{left: -73.5%;}
+    50%{left: -122.5%;}
+    60%{left: -122.5%;}
+    70%{left: -172%;}
+    80%{left: -172%;}
+    100%{left: 25%;}
+}
+
+
+
+#articles{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#articles img{
+    width: 424px; 
+    border-radius: 25px;
+    box-shadow: 3px 5px 10px #1b2520;
+}
+ 
+#report{
+    border-radius: 25px;
+    background: #3a5a40;
+    box-shadow: 3px 5px 10px #1b2520;
+    margin-right: 7px;
+    padding: 20px; 
+    color: #dad7cd;
+    font-size: 16pt;
+}
+
+
+
+
+#selector ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#selector li a {
+    border-radius: 10px;
+    background-color: #3a5a40;
+    box-shadow: 3px 5px 10px #1b2520;
+    float: left;
+    margin: 10px 3px;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20pt;
+    color: #dad7cd;
+    text-align: center;
+}
+  
+#selector li a:hover {
+    background-color:#588157;
+}
+
+#Journalists{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#Journalists img{
+    width: 425px; 
+    border-radius: 25px;
+    box-shadow: 3px 5px 10px #1b2520;
+
+
+}
+ 
+#journal, #art, #media, #peace, #perspective{
+    border-radius: 25px;
+    background: #3a5a40;
+    box-shadow: 3px 5px 10px #1b2520;
+    margin-left: 7px;
+    padding: 20px; 
+    color: #dad7cd;
+    font-size: 22pt;
+}
+
+
+#Artists{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#Artists img{
+    width: 395px; 
+    border-radius: 25px;
+    box-shadow: 3px 5px 10px #1b2520;
+}
+ 
+
+#Social{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Social img{
+    width: 545px;
+    height: 427px; 
+    border-radius: 25px;
+    box-shadow: 3px 5px 10px #1b2520;
+}
+ 
+
+#Peaceful{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Peaceful img{
+    width: 697px; 
+    box-shadow: 3px 5px 10px #1b2520;
+    border-radius: 25px;
+}
+ 
+
+#Company{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Company img{
+    width: 625px; 
+    box-shadow: 3px 5px 10px #1b2520;
+    border-radius: 25px;
+}
+ 
+
+#arrow img{
+    float: right;    
+    height: 30px;
+    width: inherit;
+    margin-top: 20px;
+    box-shadow: none;
+    border-radius: none;
+}
+
+
+#about{
+    font-family: georgia,'times new roman',times,serif;
+    color: #dad7cd;
+}
